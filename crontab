@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+0 6  * * * export DISPLAY=:0; /root/reload.sh
+25 8 * * 7 export DISPLAY=:0; /root/sstart.sh
+25 10 * * 7 export DISPLAY=:0; /root/sstart.sh
+#0 2 * * 1 reboot
